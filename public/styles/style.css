@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#home-container {
+    width: 100vw;
+    height: 100vh;
+    background-image: url('/images/spotify-background.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+    flex-wrap: wrap; 
+}
+
+h1 {
+    font-family: 'Varela Round', sans-serif;
+    font-size: 5em;
+    margin-top: 0;
+}
+
+#search-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+    flex-wrap: wrap;
+    background-color: white;
+    opacity: 0.8;
+    padding: 2rem;
+}
+
+#search {
+    font-family: 'Varela Round', sans-serif;
+    font-weight: bold;
+    padding: 1rem; 
+    width: 30rem;
+    margin: 1rem;
+    border-color: black;
+}
+
+#submit-button {
+    font-family: 'Varela Round', sans-serif;
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 2%;
+    background-color: green;
+    color: white;
+    border-color: transparent;
+    text-align: center;
+    margin: auto;
+    display: flex;
+}
+
+#home-button {
+    font-family: 'Varela Round', sans-serif;
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 1%;
+    margin: 1%;
+    background-color: white;
+    border-color: black;
+    text-align: center;
+    margin: auto;
+    display: flex;
+}
+
+a:link { 
+    text-decoration: none;
+    color: black;
+ }
+
+ li {
+    list-style-type: none;
+ }
+
+ .albums-container {
+    display: flex;
+    align-items:flex-end;
+    justify-content:flex-start; 
+    flex-wrap: wrap;
+}
+
+.albums-img {
+    width: 20rem;
+    height: 20rem;
+    margin-bottom: 0;
+    padding: 0;
+}
+
+.albums-info {
+    font-family: 'Varela Round', sans-serif;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    flex-direction: column; 
+    justify-content: center;
+    background-color:green;
+    margin-top: 0;
+    width: 20rem;
+    height: 5rem;
+}
+
+.views-button {
+    font-family: 'Varela Round', sans-serif;
+    font-weight: bold;
+    border-color: black;
+    margin: 3%;
+    padding: 1%;
+}
+
+.views-button:hover {
+    background-color: #66FF99;
+}
+
+#tracks-title {
+    display: flex;
+    justify-content: space-between;
+    background-color:green;
+    width: 100vw;
+    
+}
+
+h2 {
+    font-family: 'Varela Round', sans-serif;
+    font-weight: bold;
+    margin-left: 5%;
+    margin-right: 10%;
+}
+
+#tracks-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Varela Round', sans-serif;
+    font-weight: bold;
+    background-color:  #66FF99;
+    padding: 1%;
+}
+
+

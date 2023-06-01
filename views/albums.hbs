@@ -1,5 +1,16 @@
+<section class="albums-container">
 {{#each albums}}
-<h2>{{this.name}}</h2>
-<img src="{{this.images.[0].url}}" alt="">
-<button> <a href="/albums/{{this.id}}"> View tracks</a></button>        
+    <ul>
+        <li>
+            <img class="albums-img" src="{{this.images.[0].url}}" alt="">
+                <div class="albums-info">
+                    {{this.name}}
+                    <button class="views-button"> <a href="/albums/{{this.id}}/tracks"> View tracks</a></button>        
+                </div>
+        </li>
+    </ul>
 {{/each}}
+
+</section>
+
+<button id="home-button"> <a href="/"> Search Another Artist</a></button>

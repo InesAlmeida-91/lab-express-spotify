@@ -1,11 +1,17 @@
-
+<section class="albums-container">
 {{#each searchedArtists}}   
 <ul>
     <li>
-        {{this.name}}
-        <img src="{{this.images.[0].url}}" alt="{{this.name}}">
-        <button> <a href="/albums/{{this.id}}"> Views Albums</a></button>        
+        <img class="albums-img"src="{{this.images.[0].url}}" alt="{{this.name}}">
+            <div class="albums-info">
+                {{this.name}}
+                <button class="views-button"> <a href="/albums/{{this.id}}"> Views Albums</a></button>   
+            </div>     
     </li>
 </ul>
 {{/each}}
+</section>
+
+<button id="home-button"> <a href="/"> Search Another Artist</a></button>
+
 
